@@ -6,6 +6,8 @@ def reformat_languages(languages)
       new_hash[language] = {language_info, {style: style}}
     end 
   end 
+  
+  return new_hash
 end
 
 # languages = {
